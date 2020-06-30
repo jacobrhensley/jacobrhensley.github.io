@@ -1,67 +1,21 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
-#emailForm{
-  opacity: 80%;
-  border-radius: 10px;
-}
-#me{
-  width: 320px;
-  height: 320px;
-  border: 2px solid black;
+.navbar-toggler{
+    background-color: grey;
 }
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
+.jumbotron{
+background-color: rgba(122,158,160,0.88);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
-p {
-  line-height: 2rem;
+.animate {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
 }
 
-.sidenav-trigger {
-  color: #26a69a;
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
 }
 
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
