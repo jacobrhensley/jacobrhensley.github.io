@@ -2,8 +2,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .above-fold{
-    height: 99vh;
-    background-image: url(imgs/dirt.jpg);
+    height: 100vh;
+    background-image: url(imgs/foggy.jpg);
     background-repeat: repeat;
     background-size: cover;
 }
