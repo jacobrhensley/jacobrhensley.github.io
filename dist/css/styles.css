@@ -10190,6 +10190,7 @@ body {
   }
   #mainNav.navbar-shrink {
     background-color: #fff;
+    opacity: 80%;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000000;
