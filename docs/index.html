@@ -60,86 +60,152 @@
             <div class="container">
                 <!-- Featured Project Row-->
                 <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/spotify.png" alt="" /></div>
+                    <div class="col-xl-8 col-lg-7"><img type="button" data-bs-toggle="modal" data-bs-target="#spotifyModal" class="img-fluid mb-3 mb-lg-0" src="assets/img/spotify.png" alt="" /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4>Spotify-Clone(React)</h4>
-                            <p class="text-black-50 mb-0">A ReactJS based project utilizing the Spotify API to replicate Spotify's media player and display user data.</p>
+                            <p class="text-black-50 mb-0">A ReactJS based project utilizing the Spotify API to replicate Spotify's media player and display user data.<br/><br/>Repsitory: <a href="https://github.com/jacobrhensley/spotify-clone" target="_blank">Spotify-Clone</a></p>
                         </div>
                     </div>
                 </div>
+                <!-- Spotify Modal -->
+                <div class="modal fade" id="spotifyModal" tabindex="-1" aria-labelledby="spotifyModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img class="img-fluid" src="assets/img/spotify.png" alt="" />
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
                 <!-- Project One Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/Pokedex.png" alt="" /></div>
+                    <div class="col-lg-6"><img type="button" data-bs-toggle="modal" data-bs-target="#pokeModal" class="img-fluid" src="assets/img/Pokedex.png" alt="" /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
                                     <h4 class="text-white">Vanilla JS Pokedex</h4>
-                                    <p class="mb-0 text-white-50">A virtual Pokedex machine working with the Pokemon API to use a d-pad to shuffle through Pokemon and read about them. Attached to the buttons are original Pokemon menu sounds that are mutable by a button. Once you find your favorite Pokemon you can store them in your favorites that are stored locally.</p>
+                                    <p class="mb-0 text-white-50">A virtual Pokedex machine working with the Pokemon API to use a d-pad to shuffle through Pokemon and read about them. Attached to the buttons are original Pokemon menu sounds that are mutable by a button. Once you find your favorite Pokemon you can store them in your favorites that are stored locally.<br/><br/>Repsitory: <a href="https://github.com/nik-and-jacob/javascript-project/tree/main/pokedex" target="_blank">Pokedex Project</a></p>
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- Pokedex Modal -->
+                <div class="modal fade" id="pokeModal" tabindex="-1" aria-labelledby="pokeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img class="img-fluid" src="assets/img/Pokedex.png" alt="" />
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Project Two Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/hobbyist.png" alt="" /></div>
+                    <div class="col-lg-6"><img type="button" data-bs-toggle="modal" data-bs-target="#hobbyistModal" class="img-fluid" src="assets/img/hobbyist.png" alt="" /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 class="text-white">Hobbyist</h4>
-                                    <p class="mb-0 text-white-50">A full stack social-platform application that allows users to discover new hobbies and keep track of their learning progress using the in-app hobby tracker and rating features.</p>
+                                    <p class="mb-0 text-white-50">A full stack social-platform application that allows users to discover new hobbies and keep track of their learning progress using the in-app hobby tracker and rating features.<br/><br/>Repsitory: <a href="https://github.com/Hobbyist-Capstone/Hobbyist" target="_blank">Hobbyist</a></p>
                                     <hr class="d-none d-lg-block mb-0 mr-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Project Two Row-->
+                <!-- Hobbyist Modal -->
+                <div class="modal fade" id="hobbyistModal" tabindex="-1" aria-labelledby="hobbyistModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img class="img-fluid" src="assets/img/hobbyist.png" alt="" />
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Project Three Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/catch-of-the-day.png" alt="" /></div>
+                    <div class="col-lg-6"><img type="button" data-bs-toggle="modal" data-bs-target="#cotdModal" class="img-fluid" src="assets/img/catch-of-the-day.png" alt="" /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
                                     <h4 class="text-white">Catch of the Day</h4>
-                                    <p class="mb-0 text-white-50">ReactJS project displaying a menu selection of available fish as "Sold Out" or "Add To Order" adding total cost and their current selections to their order.</p>
+                                    <p class="mb-0 text-white-50">ReactJS project displaying a menu selection of available fish as "Sold Out" or "Add To Order" adding total cost and their current selections to their order.<br/><br/>Repsitory: <a href="https://github.com/jacobrhensley/React-For-Beginners-Starter-Files" target="_blank">Catch of the Day</a></p>
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Project Three Row-->
+                <!-- Catch of the Day Modal -->
+                <div class="modal fade" id="cotdModal" tabindex="-1" aria-labelledby="cotdModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img class="img-fluid" src="assets/img/catch-of-the-day.png" alt="" />
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Project Four Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/movies.png" alt="" /></div>
+                    <div class="col-lg-6"><img type="button" data-bs-toggle="modal" data-bs-target="#moviesModal" class="img-fluid" src="assets/img/movies.png" alt="" /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 class="text-white">Movies Application</h4>
-                                    <p class="mb-0 text-white-50">Java paired-programed application allowing a user to review movies(title and rating). After submitted a user can browse through a collection of ratings.</p>
+                                    <p class="mb-0 text-white-50">Java paired-programed application allowing a user to review movies(title and rating). After submitted a user can browse through a collection of ratings.<br/><br/>Repsitory: <a href="https://github.com/jacob-and-ry/movies-application" target="_blank">Movies Application</a></p>
                                     <hr class="d-none d-lg-block mb-0 mr-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Project Four Row-->
+                <!-- Pokedex Modal -->
+                <div class="modal fade" id="moviesModal" tabindex="-1" aria-labelledby="moviesModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img class="img-fluid" src="assets/img/movies.png" alt="" />
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Project Five Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/codeup-design.png" alt="" /></div>
+                    <div class="col-lg-6"><img type="button" data-bs-toggle="modal" data-bs-target="#codeupModal" class="img-fluid" src="assets/img/codeup-design.png" alt="" /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
                                     <h4 class="text-white">Codeup Design</h4>
-                                    <p class="mb-0 text-white-50">A mock project when given a styling challenge to take a wireframe and create a fully mobile first responsive page using bootstrap.</p>
+                                    <p class="mb-0 text-white-50">A mock project when given a styling challenge to take a wireframe and create a fully mobile first responsive page using bootstrap.<br/><br/>Repsitory: <a href="https://github.com/Tyler-and-Jacob/codeup-design" target="_blank">Codeup Design</a></p>
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <!-- codeup design Modal -->
+                <div class="modal fade" id="codeupModal" tabindex="-1" aria-labelledby="codeupModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img class="img-fluid" src="assets/img/codeup-design.png" alt="" />
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -203,6 +269,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
