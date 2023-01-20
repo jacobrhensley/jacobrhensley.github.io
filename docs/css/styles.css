@@ -10365,3 +10365,9 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+.skillIcon {
+    height: 100px;
+    width: auto;
+    margin: 50px;
+}
