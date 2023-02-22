@@ -1,0 +1,54 @@
+html {
+    font-size: 14px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #444;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #222;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    color: lightgray;
+}
+
+.jumbotron {
+    height: 80vh;
+    background-image: radial-gradient( rgba(0,0,0,0.5), black), url('../img/header.jpg');
+    background-position: top;
+    background-size: cover;
+    text-shadow: 2px 2px 5px black;
+}
+
+.title-text {
+    letter-spacing: 0.8rem;
+    text-transform: uppercase !important;
+}
